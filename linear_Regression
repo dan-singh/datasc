@@ -1,0 +1,12 @@
+Linear Regression is a way to minimize interceptual distance between plotted data points as compared to predicted or fitted line. There can be 2 types of linear regression 
+ a. Simple Linear Regression: Here we have simple formula which is y = mx + c 
+ b. Multiple Linear Regression: here mult variates are included in equation as 
+ Yij = C0j + C1j*Xi1 + C2j*Xi2 + .. + Cpj*Xp1  + Eij 
+ 
+ 
+ Goodness of fit can be determined by any of the following methods:
+  a) R squared coefficient
+  b) Adjusted R squared
+  c) Standard Error
+  d) F and T statistics
+ 
