@@ -4,9 +4,19 @@ Linear Regression is a way to minimize interceptual distance between plotted dat
  Yij = C0j + C1j*Xi1 + C2j*Xi2 + .. + Cpj*Xp1  + Eij 
  
  
- Goodness of fit can be determined by any of the following methods:
+<*> Goodness of fit can be determined by any of the following methods:
   a) R squared coefficient
   b) Adjusted R squared
   c) Standard Error
   d) F and T statistics
  
+ 
+<*> Types of fittings:
+  a) Overfitting: If the model does not capture the dominant trend that we can all see (positively increasing, in our case), it can’t predict a likely output for an input
+     that it has never seen before — defying the purpose of Machine Learning to begin with! Overfitting is the case where the overall cost is really small, but the generalization
+     of the model is unreliable. This is due to the model learning “too much” from the training data set.
+
+  b) Underfitting: Underfitting is the case where the model has “ not learned enough” from the training data, resulting in low generalization and unreliable predictions.
+  
+  
+  
