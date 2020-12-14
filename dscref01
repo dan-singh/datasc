@@ -1,0 +1,6 @@
+ERROR: Could not install packages due to an EnvironmentError: [WinError 5] Access is denied: 'C:\\Users\\dsusa\\anaconda3\\envs\\dspythonenv01\\Lib\\site-packages\\numpy\\core\\_multiarray_tests.cp37-win_amd64.pyd'
+Consider using the `--user` option or check the permissions.
+
+
+(dspythonenv01) C:\WINDOWS\system32>pip3 install --ignore-installed --upgrade tensorflow --user
+
